@@ -1,0 +1,21 @@
+.title {
+    background: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.title img {
+    border-radius: 125px;
+    display: block;
+    height: 125px;
+    margin: 10px auto 25px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 125px;
+}
+

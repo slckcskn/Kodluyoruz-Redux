@@ -1,0 +1,13 @@
+.money {
+background: linear-gradient(180deg, #2ecc71, #1abc9c);
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0px 20px 0px;
+    padding: 20px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 9999;
+}
