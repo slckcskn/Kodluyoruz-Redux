@@ -1,0 +1,76 @@
+/* Kart ana kutusu - responsive: card fills its grid cell and keeps an aspect ratio */
+.memo-card {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto; /* let height fill the grid row */
+    perspective: 1000px;
+    margin: 0; /* spacing handled by grid gap in .content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 20px 0px 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Kart içi (ön/arka) */
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform-style: preserve-3d;
+}
+
+.memo-card.flipped .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* allow bigger font on larger screens */
+    font-size: clamp(1.5rem, 3vw, 3.5rem);
+    font-weight: bold;
+    border-radius: 0 20px 0px 20px;
+}
+
+.card-front {
+    background-color: lightgray;
+    color: #333;
+    z-index: 2;
+}
+
+.card-back {
+    background-color: #f5f5f5;
+    color: inherit;
+    transform: rotateY(180deg);
+    z-index: 1;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    padding: 16px; /* give image breathing room so it doesn't overflow */
+    box-sizing: border-box;
+}
+
+/* Responsive image inside the card back */
+.card-back img,
+.card-back .card-img {
+    /* image grows with viewport but stays within card */
+    width: clamp(50px, 15vw, 200px);
+    height: auto;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+.memo-card:hover .card-front {
+    background-color: #b3b3b3;
+    color: white;
+    border: 1px solid #333;
+}
+

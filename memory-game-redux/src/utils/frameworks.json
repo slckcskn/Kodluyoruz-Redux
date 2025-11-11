@@ -1,0 +1,79 @@
+{
+  "frameworks": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "image": "/angular2.png"
+    },
+    {
+      "id": 2,
+      "name": "Babel",
+      "image": "/babel.png"
+    },
+    {
+      "id": 3,
+      "name": "Bower",
+      "image": "/bower.png"
+    },
+    {
+      "id": 4,
+      "name": "Browserify",
+      "image": "/browserify.png"
+    },
+    {
+      "id": 5,
+      "name": "Ember",
+      "image": "/ember.png"
+    },
+    {
+      "id": 6,
+      "name": "Grunt",
+      "image": "/grunt.png"
+    },
+    {
+      "id": 7,
+      "name": "Gulp",
+      "image": "/gulp.png"
+    },
+    {
+      "id": 8,
+      "name": "Ionic",
+      "image": "/ionic.png"
+    },
+    {
+      "id": 9,
+      "name": "Meteor",
+      "image": "/meteor.png"
+    },
+    {
+      "id": 10,
+      "name": "Node.js",
+      "image": "/nodejs.png"
+    },
+    {
+      "id": 11,
+      "name": "PhantomJS",
+      "image": "/phantomjs.png"
+    },
+    {
+      "id": 12,
+      "name": "React",
+      "image": "/react.png"
+    },
+    {
+      "id": 13,
+      "name": "Vue",
+      "image": "/vue.png"
+    },
+    {
+      "id": 14,
+      "name": "Yarn",
+      "image": "/yarn.png"
+    },
+    {
+      "id": 15,
+      "name": "Yeoman",
+      "image": "/yeoman.png"
+    }
+  ]
+}

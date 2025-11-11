@@ -1,0 +1,25 @@
+.content {
+    /* 5 columns x 4 rows grid; columns always 5 regardless of viewport width
+       Fill available height minus Header and Footer.
+       Gap and padding scale with viewport for larger cards. */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: clamp(8px, 1.5vmin, 24px);
+    /* Fill available space with padding included */
+    width: 100%;
+    height: calc(100vh - 140px);
+    max-width: 100%;
+    margin: 0;
+    padding: clamp(10px, 1.5vmin, 30px);
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
+    overflow: hidden; /* prevent scrolling */
+}
+
+.score {
+    position: relative;
+    align-items: end;
+}
