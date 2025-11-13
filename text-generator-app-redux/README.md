@@ -11,7 +11,7 @@ API:
 
 
 
-![tgar](./public/tgar.JPG)
+![tgar](/public/tgar.JPG)
 
 ## npm install
 ## npm run dev
