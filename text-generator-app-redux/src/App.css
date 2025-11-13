@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#root h1 {
+  color: black;
+}
+
+#root input,
+#root select {
+  background-color: white;
+  color: black;
+}
+
+#root p {
+  color: white;
+}
+
+#root h3 {
+  color: white;
+}
+
+.input-group-text {
+  background-color: #555 !important;
+  color: white !important;
+  border: 1px solid #555 !important;
+}
+
+.form-control,
+.form-select {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: white !important;
+  color: black !important;
+  border-color: #80bdff !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+
+.background {
+  background-color: red;
+}
+
+.inputDiv{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.textDiv{
+  background-color: gray;
+}
