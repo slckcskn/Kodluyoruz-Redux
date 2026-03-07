@@ -1,0 +1,41 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+
+  <!-- Virüs gövdesi -->
+  <circle cx="150" cy="150" r="70" fill="#ef4444" stroke="#b91c1c" stroke-width="4"></circle>
+
+  <!-- Spike çizgileri -->
+  <g stroke="#f87171" stroke-width="6" stroke-linecap="round">
+    <line x1="150" y1="60" x2="150" y2="30"></line>
+    <line x1="150" y1="240" x2="150" y2="270"></line>
+    <line x1="60" y1="150" x2="30" y2="150"></line>
+    <line x1="240" y1="150" x2="270" y2="150"></line>
+
+    <line x1="90" y1="90" x2="65" y2="65"></line>
+    <line x1="210" y1="90" x2="235" y2="65"></line>
+    <line x1="90" y1="210" x2="65" y2="235"></line>
+    <line x1="210" y1="210" x2="235" y2="235"></line>
+  </g>
+
+  <!-- Spike uçları -->
+  <g fill="#f87171">
+    <circle cx="150" cy="25" r="8"></circle>
+    <circle cx="150" cy="275" r="8"></circle>
+    <circle cx="25" cy="150" r="8"></circle>
+    <circle cx="275" cy="150" r="8"></circle>
+
+    <circle cx="60" cy="60" r="8"></circle>
+    <circle cx="240" cy="60" r="8"></circle>
+    <circle cx="60" cy="240" r="8"></circle>
+    <circle cx="240" cy="240" r="8"></circle>
+  </g>
+
+  <!-- İç detay -->
+  <g fill="#991b1b">
+    <circle cx="130" cy="140" r="6"></circle>
+    <circle cx="170" cy="160" r="6"></circle>
+    <circle cx="155" cy="120" r="5"></circle>
+    <circle cx="120" cy="170" r="5"></circle>
+  </g>
+
+</svg>

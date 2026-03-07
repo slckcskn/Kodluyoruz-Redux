@@ -1,0 +1,26 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.country-select {
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+  background: #f8f9fa;
+  font-size: 1.1rem;
+  padding: 10px 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: border 0.2s, box-shadow 0.2s;
+  outline: none;
+  margin-bottom: 10px;
+}
+.country-select:focus {
+  border: 1.5px solid #1976d2;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+  background: #fff;
+}
+.country-select option {
+  background: #fff;
+  color: #222;
+}
