@@ -7,7 +7,7 @@ Gereksinimler:
 * Sayfanın altına yerleştireceğiniz bölümde ise verileri grafik olarak göstermeniz gerekiyor.
 
 
-![c19tr](/c19tr-ss.jpg)
+![c19tr](c19tr-ss.jpg)
 
 ## npm install
 ## npm run dev
